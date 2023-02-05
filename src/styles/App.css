@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  color: #45525d;
+  display: flex;
+  flex-direction: row;
+  font-family: "Asap";
+  font-weight: 600;
+}
+
+.title {
+  color: #243341;
+  font-size: 18px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c7d2db;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #c7d2db;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #c7d2db;
+}
+
+.input {
+  width: 155px;
+  background: url("../assets/icons/search.png") no-repeat right;
+  background-size: 20px;
+  background-position-x: 98%;
+  font-family: 'Asap';
+  border: 2px solid #cbd3da;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.input:focus {
+  outline: 0px;
+  border-color: #685bf4;
+}
+
+.searchbar-container {
+  width: 100%;
+  border-bottom: 2px solid #b1bdc7;
+}
+
+.searchbar {
+  width: 275px;
+  margin: 20px;
+}
+
+.App-header {
+  min-height: 10vh;
+  font-size: 16px;
+  padding: 0px 16px;
+  border-right: 2px solid #b1bdc7;
+}

@@ -1,5 +1,9 @@
+import { useParams } from "react-router-dom";
+
 function Books() {
-    return <div>books</div>;
+  const { subject } = useParams();
+  
+  return <div>{subject}</div>;
 }
 
 export default Books;
