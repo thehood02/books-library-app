@@ -1,0 +1,11 @@
+Password cracking is the process of using an application program to identify an unknown or forgotten password to a
+computer or network resource. It can also be used to help a threat actor obtain unauthorized access to resources.
+
+With the information malicious actors gain using password cracking, they can undertake a range of criminal
+activities. Those include stealing banking credentials or using the information for identity theft and fraud.
+
+A password cracker recovers passwords using various techniques. The process can involve comparing a list of
+words to guess passwords or the use of an algorithm to repeatedly guess the password.
+
+ 
+
